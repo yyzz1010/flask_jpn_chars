@@ -1,4 +1,4 @@
-entrypoint: "gunicorn -b :$PORT flask_app:app"
+entrypoint: "gunicorn -b :$PORT main:app"
 env: flex
 runtime: python
 runtime_config: 
